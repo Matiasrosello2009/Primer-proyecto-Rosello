@@ -1,38 +1,58 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Targetas y barras de navegacion</title>
+    <title>Practica con bootstrap</title>
 </head>
-<body>
-    <div class="navbar justify-content-end bg-dark navbar-dark sticky-top navbar-expand-sm">
-        <ul class="nav-navbar">
-            <li class="navbar.-item">
-                <a class="nav-bar-link" href="*">Ejemplo de item de barra de navegacion</a>
-                <a class="nav-bar-link" href="*">Otro ejemplo de item de barra de navegacion</a>
-            </li>
-        </ul>
+<link rel="stylesheet" href="styles.css">
+<body class="bg-warning">
+    <h1 class="bg-success"> Guia de plantas comunes </h1>
+        <div class="navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="https://es.wikipedia.org/wiki/Helianthus_annuus">Girasoles</a></li>
+                <li class="nav-item"><a href="https://es.wikipedia.org/wiki/Tulipa">Tulipanes</a></li>
+                <li class="nav-item"><a href="https://es.wikipedia.org/wiki/Filicopsida">Helecho</a></li>
+            </ul>
+        </div>
+    <div class="col-3">
+        <div class="container">
+                <div class="container">
+                   <h3>Girasol</h3>
+                   <div class="card-img-top" style="width: 200px;">
+                    <img src="imagengirasol.jfif" alt="Girasol" style="width: 200px;">
+                   </div>
+                    <p class="card-text">
+                        Una planta comun y corriente. 
+                    </p>
+                   <a href="https://es.wikipedia.org/wiki/Helianthus_annuus"><button class="btn btn-success">saber mas</button> </a>
+                </div>
+        </div>
     </div>
-    <div class=".card-group">
-        <div class=".card">
-            <h1>Hola</h1>
-            <p class=".card-text">Practica con targeta</p>
-            <div class=".card-body">
-                <h1> Hola</h1>
+    <div class="col-3">
+        <div class="container">
+            <div class="container">
+                <h3>Tulipanes</h3> 
+                <div class="card-img-top" style="width: 200px;">
+                    <img src="imagentulipan.jfif" alt="tulipanes" style="width: 200px;">
+                </div>
+                <p>Son coloridos y atractivos. </p>
+                <a href="https://es.wikipedia.org/wiki/Tulipa"><button class="btn btn-success">Saber mas</button> </a> 
             </div>
         </div>
-        <div class=".card">
-            <h1>Hola II</h1>
-            <p class=".card-text">Practica con targeta II</p>
-            <div class=".card-body">
-                <h1> Hola II</h1>
+    </div>
+    <div class="col-3">
+        <div class="container">
+            <div class="container">
+                <h3>Helecho</h3> 
+                <div class="card-img-top" style="width: 200px;">
+                    <img src="imagenhelecho.jfif" alt="Helecho" style="width: 200px;">
+                </div>
+                <p>Es un tipo de hierba (personalmente hermoso). </p>
+                <a href="https://es.wikipedia.org/wiki/Filicopsida"><button class="btn btn-success">Saber mas</button> </a> 
             </div>
         </div>
-    </div>
-    <div>
-        
     </div>
 </body>
 
