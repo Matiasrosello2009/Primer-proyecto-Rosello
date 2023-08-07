@@ -18,3 +18,4 @@ nombreAlumno = nombreAlumno + ' Rosello'
 
 let nombre nombreAlumno 
 nombreAlumno = prompt ('ingresa tu nombre') 
+alert('Bienvenido '+ nombreAlumno)
