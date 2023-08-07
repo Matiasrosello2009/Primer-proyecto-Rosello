@@ -16,6 +16,6 @@ nombreAlumno = nombreAlumno + ' Rosello'
 
 //¿Que es la funcion prompt? Es una funcion que muestra un diálogo con mensaje opcional, que solicita al usuario que introduzca un texto.//
 
-let nombre nombreAlumno 
+let nombreAlumno 
 nombreAlumno = prompt ('ingresa tu nombre') 
 alert('Bienvenido '+ nombreAlumno)
