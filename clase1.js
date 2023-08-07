@@ -4,6 +4,8 @@ alert('Aqui se muestra una notificacion con un texto')
 console.log(50+51)
 //para entrar a la consola: entrar al "index", luego seleccionar "inspeccionar" y luego "console".// 
 
+alert('Mi edad es: ' + (2023 - 2009))
+
 let nombreAlumno = 'Matias' 
 nombreAlumno = nombreAlumno + ' Rosello'
 
@@ -11,3 +13,4 @@ nombreAlumno = nombreAlumno + ' Rosello'
 //asignar valor a variable: _nombre variable = ´valor a asignar´_ //
 //Tambien se puede asignar variable a la vez.// 
 //operaciones matematicas: suma = num + 30 (ejemplo)//
+
