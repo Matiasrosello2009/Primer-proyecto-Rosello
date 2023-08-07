@@ -14,3 +14,7 @@ nombreAlumno = nombreAlumno + ' Rosello'
 //Tambien se puede asignar variable a la vez.// 
 //operaciones matematicas: suma = num + 30 (ejemplo)//
 
+//¿Que es la funcion prompt? Es una funcion que muestra un diálogo con mensaje opcional, que solicita al usuario que introduzca un texto.//
+
+let nombre nombreAlumno 
+nombreAlumno = prompt ('ingresa tu nombre') 
