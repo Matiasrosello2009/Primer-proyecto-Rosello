@@ -63,3 +63,12 @@ let tres = 3
 let resultadoMultiplicacion = diez * tres 
 alert ('El resultado de la multiplicacion de 10x3 es: '+ resultadoMultiplicacion) 
 
+//Funciones: ejemplo "promedio"//
+let n1 =9
+let n2 =9 
+let n3 =10
+
+function promedio (a, b, c)
+{
+return((a+b+c)/3)
+}
