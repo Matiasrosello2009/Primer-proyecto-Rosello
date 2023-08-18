@@ -3,6 +3,7 @@ alert('Aqui se muestra una notificacion con un texto')
 //comentario de practica// 
 console.log(50+51)
 //para entrar a la consola: entrar al "index", luego seleccionar "inspeccionar" y luego "console".// 
+//"console.log" es una funcion.// 
 
 alert('Mi edad es: ' + (2023 - 2009))
 
@@ -76,3 +77,6 @@ return promedio
 
 alert (calcularPromedio (10,10,9))
 //Para ejecutar la funcion en la consola, se debe escribir "Function promedio (a, b, c)". Una vez escrito, se deben abrir llaves ({}) y colocar allí la funcion que queramos que se ejecute. Si el codigo se escribe fuera de las llaves, ya no pertenece a la funcion. ¡Tener en cuenta las variables! Antes de ejecutar la funcion, definir las variables o, de lo contrario, no se ejecutará el codigo." 
+//Tambien se puede usar "console.log" para ejecutar la funcion en la consola.// 
+
+console.log (calcularPromedio(9,8,7))
