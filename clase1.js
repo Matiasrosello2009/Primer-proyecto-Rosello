@@ -74,4 +74,5 @@ let promedio = (a + b + c)/3
 return promedio
 }
 
+alert (calcularPromedio (10,10,9))
 //Para ejecutar la funcion en la consola, se debe escribir "Function promedio (a, b, c)". Una vez escrito, se deben abrir llaves ({}) y colocar allí la funcion que queramos que se ejecute. Si el codigo se escribe fuera de las llaves, ya no pertenece a la funcion. ¡Tener en cuenta las variables! Antes de ejecutar la funcion, definir las variables o, de lo contrario, no se ejecutará el codigo." 
