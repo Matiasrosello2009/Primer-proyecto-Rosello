@@ -88,5 +88,12 @@ function cubo(a)
     alert (resultadoCubo)
     return resultadoCubo
 }
-
 cubo (a)
+
+////Funciones: ejemplo "saludo al usuario"//
+function saludo (nombre)
+{
+    let nombre = prompt('Ingresa tu nombre')
+    return 'Bienvenido/a ' + nombre 
+}
+    
