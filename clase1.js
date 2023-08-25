@@ -80,3 +80,11 @@ alert (calcularPromedio (10,10,9))
 //Tambien se puede usar "console.log" para ejecutar la funcion en la consola.// 
 
 console.log (calcularPromedio(9,8,7))
+
+function cubo(a)
+{
+    let resultadoCubo = a * a * a
+    return resultadoCubo
+}
+
+cubo (a)
