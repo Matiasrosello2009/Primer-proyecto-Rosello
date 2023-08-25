@@ -81,9 +81,11 @@ alert (calcularPromedio (10,10,9))
 
 console.log (calcularPromedio(9,8,7))
 
+//Funciones: ejemplo "sacar X numero al cubo"//
 function cubo(a)
 {
     let resultadoCubo = a * a * a
+    alert (resultadoCubo)
     return resultadoCubo
 }
 
