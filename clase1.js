@@ -96,4 +96,4 @@ function saludo (nombre)
     let nombre = prompt('Ingresa tu nombre')
     return 'Bienvenido/a ' + nombre 
 }
-    
+ alert(saludo('Mati')) 
