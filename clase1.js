@@ -97,3 +97,5 @@ function saludo (nombre)
     return 'Bienvenido/a ' + nombre 
 }
  alert(saludo('Mati')) 
+
+ //Para llamar a una funcion, debemos poner su nombre + enter// 
