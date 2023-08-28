@@ -98,4 +98,4 @@ function saludo (nombre)
 }
  alert(saludo('Mati')) 
 
- //Para llamar a una funcion, debemos poner su nombre + enter// 
+ //Para llamar a una funcion, debemos poner su nombre y los valores de las variables (ponerlos entre parentesis y entre comillas). // 
