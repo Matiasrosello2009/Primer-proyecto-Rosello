@@ -100,4 +100,4 @@ function saludo (nombre)
 
  //Para llamar a una funcion, debemos poner su nombre y los valores de las variables (ponerlos entre parentesis y entre comillas). // 
  //👽// 
- //Para colocar un emoji se hace click en Windows + . y se abrira el menú de emojis. // 
+ //Para colocar un emoji: Windows + .// 
