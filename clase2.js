@@ -26,11 +26,16 @@ else
 //> (menor)
 //< (mayor)
 
-let hayElectricidad = true
-if (hayElectricidad = true)
+let energia = Number(prompt('Ingresa la cantidad de voltios de energia electrica'))
+if (energia >= 100)
 {
-    console.log ('Podés prender la compu. ')
+    alert ('Podés prender la luz y otros dispositivos. ')
 }
+else
+{
+    alert ('Nesecitas un poco mas de energia')
+}
+
 
 let archivoHTML = false
 if (archivoHTML = false) 
