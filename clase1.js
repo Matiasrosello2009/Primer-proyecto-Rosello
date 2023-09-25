@@ -1,4 +1,5 @@
 //En este archivo se encuentran todas las practicas de alertas, "console.log" y funciones//
+//_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0//
 
 alert('Esto es una alerta de practica')
 alert('Aqui se muestra una notificacion con un texto')
