@@ -1,3 +1,5 @@
+//En este archivo se encuentran todas las practicas de alertas, "console.log" y funciones//
+
 alert('Esto es una alerta de practica')
 alert('Aqui se muestra una notificacion con un texto')
 //comentario de practica// 
@@ -101,3 +103,17 @@ function saludo (nombre)
  //Para llamar a una funcion, debemos poner su nombre y los valores de las variables (ponerlos entre parentesis y entre comillas). // 
  //👽// 
  //Para colocar un emoji: Windows + .// 
+
+ function salarioAnual (salarioMensual)
+ {
+    let salarioMensual = Number(prompt('Ingrese su salario mensual: '))
+    let resultadoSalarioAnual = salarioMensual * 12
+    return console.log ('Tu salario anual es de: '+ resultadoSalarioAnual +'$' )
+ }
+
+ function salarioMensual (salarioSemanal)
+ {
+    let salarioSemanal = Number(prompt('Ingrese su salario semanal: '))
+    let resultadoSalarioMensual = salarioSemanal * 4
+    return console.log ('Tu salario semanal es de: '+ resultadoSalarioMensual +'$' )
+ }
