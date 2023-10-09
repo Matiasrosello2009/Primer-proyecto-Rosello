@@ -36,11 +36,9 @@ else
     alert ('Nesecitas un poco mas de energia')
 }
 
-
 let archivoHTML = false
 if (archivoHTML = false) 
 {
     console.log ('Para programar necesitas un archivo HTML!!!')
 }
-
-let 
+//Los condicionales que evalúan una sola condicion son llamadas "simples" y las que evalúan más de una condicion son llamadas "compuestas"//
