@@ -44,6 +44,7 @@ if (archivoHTML = false)
 //Los condicionales que evalúan una sola condicion son llamadas "simples" y las que evalúan más de una condicion son llamadas "compuestas"//
 //Si la condicion se cumple se ejecuta el "if". Si no se cumple, se ejecuta el "else".//
 
+//Condicional de IPAV(Instituto Provincial Autárquico de Vivienda).// 
 let Edad = 2023 - 1990
 let cantidadHijos = 0
 let cantidadCasas = 0
