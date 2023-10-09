@@ -18,7 +18,7 @@ else
     alert ('Estas desaprobado. ')
 }
 
-//Símbolos: 
+//Símbolos I: 
 //== (comparador igual)
 //>= (menor o igual)
 //<= (mayor o igual)
@@ -44,13 +44,17 @@ if (archivoHTML = false)
 //Los condicionales que evalúan una sola condicion son llamadas "simples" y las que evalúan más de una condicion son llamadas "compuestas"//
 //Si la condicion se cumple se ejecuta el "if". Si no se cumple, se ejecuta el "else".//
 
+//Símbolos II: 
+//&& = y/and
+//|| = o/or 
+
 //Condicional de IPAV(Instituto Provincial Autárquico de Vivienda).// 
 let Edad = 2023 - 1990
 let cantidadHijos = 0
 let cantidadCasas = 0
 let trabajoFormal = true
 
-if (trabajoFormal = true)
+if ((trabajoFormal = true) && (cantidadCasas = 0) && (Edad >= 18) && (cantidadHijos > 0))
 {
     alert ('Podés entrar al sorteo.')
 }
@@ -58,31 +62,3 @@ else
 {
     alert ('No podes entrar al sorteo.')
 }
-
-if (cantidadCasas = 0)
-{
-    alert ('Podés entrar al sorteo.')
-}
-else
-{
-    alert ('No podes entrar al sorteo.')
-}
-
-if (Edad >= 18)
-{
-    alert ('Podés entrar al sorteo.')
-}
-else
-{
-    alert ('No podes entrar al sorteo.')
-}
-
-if (cantidadHijos > 0)
-{
-    alert ('Tenes más prioridad en el sorteo.')
-}
-else
-{
-    alert ('Tenes menos prioridad en el sorteo.')
-}
-
