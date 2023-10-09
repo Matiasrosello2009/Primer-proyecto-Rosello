@@ -46,6 +46,27 @@ if (archivoHTML = false)
 
 let Edad = 2023 - 1990
 let cantidadHijos = 0
+let cantidadCasas = 0
+let trabajoFormal = true
+
+if (trabajoFormal = true)
+{
+    alert ('Podés entrar al sorteo.')
+}
+else
+{
+    alert ('No podes entrar al sorteo.')
+}
+
+if (cantidadCasas = 0)
+{
+    alert ('Podés entrar al sorteo.')
+}
+else
+{
+    alert ('No podes entrar al sorteo.')
+}
+
 if (Edad >= 18)
 {
     alert ('Podés entrar al sorteo.')
