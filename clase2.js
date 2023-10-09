@@ -42,3 +42,25 @@ if (archivoHTML = false)
     console.log ('Para programar necesitas un archivo HTML!!!')
 }
 //Los condicionales que evalúan una sola condicion son llamadas "simples" y las que evalúan más de una condicion son llamadas "compuestas"//
+//Si la condicion se cumple se ejecuta el "if". Si no se cumple, se ejecuta el "else".//
+
+let Edad = 2023 - 1990
+let cantidadHijos = 0
+if (Edad >= 18)
+{
+    alert ('Podés entrar al sorteo.')
+}
+else
+{
+    alert ('No podes entrar al sorteo.')
+}
+
+if (cantidadHijos > 0)
+{
+    alert ('Tenes más prioridad en el sorteo.')
+}
+else
+{
+    alert ('Tenes menos prioridad en el sorteo.')
+}
+
