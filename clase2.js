@@ -80,20 +80,19 @@ function positivoNegativoCero (num)
 let num = Number(prompt('Escribe un número al azar (puede ser positivo o negativo): '))
 
 {
-    if (num >= 1 )
+    if (num > 0 )
 {
     alert('El número que elegiste es un número positivo. ')
 }
-else if (num <= 0 )
+else if (num < 0 )
 {
     alert('El número que elegiste es un número negativo. ')
 }
-else 
+else if (num = 0)
 {
     alert('El número que elegiste es 0(cero). Es decir que no es ni positivo ni negativo. ')
 }
 }
-
 
 function entreAmbosNumeros (num)
 let num = Number(prompt('Escribe un número al azar')) 
@@ -109,4 +108,3 @@ else
     alert('El numero elegido no se encuentra entre el 25 y el 255. ')
 }
 }
-
