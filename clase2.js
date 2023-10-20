@@ -78,7 +78,6 @@ function numMayor (num1, num2)
 
 function positivoNegativoCero (num)
 let num = Number(prompt('Escribe un número al azar (puede ser positivo o negativo): '))
-
 {
     if (num > 0 )
 {
@@ -96,7 +95,6 @@ else if (num = 0)
 
 function entreAmbosNumeros (num)
 let num = Number(prompt('Escribe un número al azar')) 
-
 {
     if (num <= 25 && num >= 255)
 {
