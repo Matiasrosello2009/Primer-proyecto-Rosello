@@ -93,7 +93,7 @@ else if (num = 0)
 }
 }
 
-function entreAmbosNumeros (num)
+function entreRangoValores (num)
 let num = Number(prompt('Escribe un número al azar')) 
 {
     if (num <= 25 && num >= 255)
