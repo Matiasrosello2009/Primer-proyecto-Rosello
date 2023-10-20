@@ -62,3 +62,44 @@ else
 {
     alert ('No podes entrar al sorteo.')
 }
+
+//Condicionales con funciones// 
+function numMayor (num1, num2)
+
+if (num1 < num2)
+{
+    alert('El numero mayor es '+ num2)
+}
+else
+{
+    alert('El numero mayor es '+ num1)
+}
+
+function positivoNegativoCero (num)
+let num = Number(prompt('Escribe un número al azar (puede ser positivo o negativo): '))
+
+if (num >= 1 )
+{
+    alert('El número que elegiste es un número positivo. ')
+}
+else if (num <= 0 )
+{
+    alert('El número que elegiste es un número negativo. ')
+}
+else 
+{
+    alert('El número que elegiste es 0(cero). Es decir que no es ni positivo ni negativo. ')
+}
+
+function entreAmbosNumeros (num)
+let num = Number(prompt('Escribe un número al azar')) 
+
+if (num <= 25 && num >= 255)
+{
+    alert('El número elegido se encuentra entre el 25 y el 255. ')
+}
+
+else
+{
+    alert('El numero elegido no se encuentra entre el 25 y el 255. ')
+}
