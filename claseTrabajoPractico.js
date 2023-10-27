@@ -54,3 +54,17 @@ let etapaUsuario = Number(prompt('Ingrese su edad para saber en qué etapa de su
         alert('Sos una persona adulta mayor. ')
     }
 }
+
+function laborableFinde (díaActual)
+let diaActual = prompt('¿Qué día es hoy?')
+{
+    if (díaActual == sábado || díaActual == domingo)
+    {
+        alert('Hoy es finde. Que lindo!!! ')
+    }
+    else
+    {
+        alert('Hoy hay que laburar :( ')
+    }
+}
+
