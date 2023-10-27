@@ -68,3 +68,16 @@ let diaActual = prompt('¿Qué día es hoy?')
     }
 }
 
+function seguridad (contraseña)
+let contraseña = prompt('Para continua, ingrese la contraseña ')
+{
+    if (contraseña == secreto)
+    {
+        alert('Acceso concedido')
+    }
+    else
+    {
+        alert('Acceso denegado')
+    }
+}
+
