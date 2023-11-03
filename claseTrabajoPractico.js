@@ -130,31 +130,31 @@ let numDía = Number(prompt('Escriba un número del 1 al 7 y le diré de qué d�
 {
     if (numDía == 1)
     {
-        return alert('Estamos hablando de Lunes. ')
+        return alert('Estamos hablando de Lunes. Es un día laborable. ')
     }
     else if (numDía == 2)
     {
-        return alert('Estamos hablando de Martes. ')
+        return alert('Estamos hablando de Martes. Es un día laborable. ')
     }
     else if (numDía == 3)
     {
-        return alert('Estamos hablando de Miercoles. ')
+        return alert('Estamos hablando de Miercoles. Es un día laborable. ')
     }
     else if (numDía == 4)
     {
-        return alert('Estamos hablando de Jueves. ')
+        return alert('Estamos hablando de Jueves. Es un día laborable. ')
     }
     else if (numDía == 5)
     {
-        return alert('Estamos hablando de Viernes. ')
+        return alert('Estamos hablando de Viernes. Es un día laborable. ')
     }
     else if (numDía == 6)
     {
-        return alert('Estamos hablando de Sabado. ')
+        return alert('Estamos hablando de Sabado. Es un día laborable. ')
     }
     else if (numDía == 7)
     {
-        return alert('Estamos hablando de Domingo. ')
+        return alert('Estamos hablando de Domingo. Es un día no laborable. ')
     }
 }
 
