@@ -6,8 +6,8 @@ let imagen = document.querySelector('.imagen')
 imagen.src = 'https://i.ytimg.com/vi/MvhWXSP58xE/sddefault.jpg' 
 
 //Practica con un boton 👇// 
-let boton = document.querySelector(#CambiarImagen)
-boton.onclick = function()
+let button = document.querySelector(#CambiarImagen)
+button.onclick = function()
 {
     titulo.innerText = 'Hola :D 👋👽'
     imagen.src = 'https://i.ytimg.com/vi/MvhWXSP58xE/sddefault.jpg'  
