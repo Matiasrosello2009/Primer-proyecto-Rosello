@@ -1,7 +1,8 @@
 //👽El DOM permite al usuario manipular la interfaz de la página. Para eso, debemos colocar por variable un elemento. Por ejemplo: "titulo" = h1. //
+
 let titulo = document.querySelector('h1')
-titulo.innerText = 'Hola :D 👋👽 (texto de prueba)' 
 let imagen = document.querySelector('.imagen')
+titulo.innerText = 'Hola :D 👋👽 (texto de prueba)' 
 imagen.src = 'https://i.ytimg.com/vi/MvhWXSP58xE/sddefault.jpg' 
 
 //Programacion de un boton 👇// 
