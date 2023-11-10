@@ -17,5 +17,13 @@ let buttonVerde = document.querySelector('#Verde')
 let buttonNormal = document.querySelector('#Normal')
 
 buttonRojo.onclick = function(){
-    h1.style.color = 'red'
+    titulo.style.color = 'red'
+}
+
+buttonVerde.onclick = function(){
+    titulo.style.color = 'green'
+}
+
+buttonNormal.onclick = function(){
+    titulo.style.color = 'black'
 }
