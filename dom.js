@@ -6,9 +6,16 @@ let imagen = document.querySelector('.imagen')
 imagen.src = 'https://i.ytimg.com/vi/MvhWXSP58xE/sddefault.jpg' 
 
 //Practica con un boton 👇// 
-let button = document.querySelector(#CambiarImagen)
+let button = document.querySelector('#CambiarImagen')
 button.onclick = function()
 {
     titulo.innerText = 'Hola :D 👋👽'
     imagen.src = 'https://i.ytimg.com/vi/MvhWXSP58xE/sddefault.jpg'  
+}
+let buttonRojo = document.querySelector('#Rojo')
+let buttonVerde = document.querySelector('#Verde')
+let buttonNormal = document.querySelector('#Normal')
+
+buttonRojo.onclick = function(){
+    h1.style.color = 'red'
 }
