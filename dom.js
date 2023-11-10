@@ -20,7 +20,7 @@ let buttonAzul = document.querySelector('#Azul')
 let buttonNormal = document.querySelector('#Normal')
 
 buttonRojo.onclick = function(){
-    titulo.style.color = '    red'
+    titulo.style.color = 'red'
 }
 
 buttonVerde.onclick = function(){
