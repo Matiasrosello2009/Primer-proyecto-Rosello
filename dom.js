@@ -11,6 +11,9 @@ button.onclick = function()
     titulo.innerText = 'Hola :D 👋👽'
     imagen.src = 'https://i.ytimg.com/vi/MvhWXSP58xE/sddefault.jpg'  
 }
+//_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0//
+//Practica en clase// 
+
 let buttonRojo = document.querySelector('#Rojo')
 let buttonVerde = document.querySelector('#Verde')
 let buttonNormal = document.querySelector('#Normal')
