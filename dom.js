@@ -1,6 +1,6 @@
 //👽El DOM permite al usuario manipular la interfaz de la página. Para eso, debemos colocar por variable un elemento. Por ejemplo: "titulo" = h1. //
-let titulo = document.querySelector(h1)
-titulo.innerText = 'Hola :D 👋👽' 
+let titulo = document.querySelector('h1')
+titulo.innerText = 'Hola :D 👋👽 (texto de prueba)' 
 let imagen = document.querySelector('.imagen')
 imagen.src = 'https://i.ytimg.com/vi/MvhWXSP58xE/sddefault.jpg' 
 
@@ -20,7 +20,7 @@ let buttonAzul = document.querySelector('#Azul')
 let buttonNormal = document.querySelector('#Normal')
 
 buttonRojo.onclick = function(){
-    titulo.style.color = 'red'
+    titulo.style.color = '    red'
 }
 
 buttonVerde.onclick = function(){
