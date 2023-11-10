@@ -34,3 +34,7 @@ buttonAzul.onclick = function(){
 buttonNormal.onclick = function(){
     titulo.style.color = 'black'
 }
+
+buttonAzul.dblclick = function(){
+    alert('Acabas de hacer doble click en un boton. ')
+}
