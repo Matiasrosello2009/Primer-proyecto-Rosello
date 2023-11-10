@@ -16,6 +16,7 @@ button.onclick = function()
 
 let buttonRojo = document.querySelector('#Rojo')
 let buttonVerde = document.querySelector('#Verde')
+let buttonAzul = document.querySelector('#Azul')
 let buttonNormal = document.querySelector('#Normal')
 
 buttonRojo.onclick = function(){
@@ -24,6 +25,10 @@ buttonRojo.onclick = function(){
 
 buttonVerde.onclick = function(){
     titulo.style.color = 'green'
+}
+
+buttonAzul.onclick = function(){
+    titulo.style.color = 'blue'
 }
 
 buttonNormal.onclick = function(){
