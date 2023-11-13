@@ -1,6 +1,12 @@
 img{
     width: 500px;
 }
-h1 {
+h3{
     color: green;
+}
+p{
+    color:lightseagreen
+}
+button{
+    color:olive
 }
