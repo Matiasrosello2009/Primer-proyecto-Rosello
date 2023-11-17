@@ -11,7 +11,7 @@ buttonTulipanes.onclick = function (){
     alert('Visualmente, los tulipanes son flores suaves, pequeñas de pétalos hermosos y no son muy comunes. Pueden ser de diferentes colores. Los más comunes son las flores rojas. ')
 }
 buttonTulipanes.dblclick = function(){
-    alert('El centro de diversidad del género se encuentra en las montañas Pamir e Hindu Kush en las estepas de Kazajistán,4​ encontrándose distribuido por Oriente Medio, Irán y Afganistán particularmente, hacia la península de Anatolia, Europa del Sur y norte de África, por el oeste, y hacia el noreste de China, por el Este.')
+    alert('El centro de diversidad del género se encuentra en las montañas Pamir e Hindu Kush en las estepas de Kazajistán, encontrándose distribuido por Oriente Medio, Irán y Afganistán particularmente, hacia la península de Anatolia, Europa del Sur y norte de África, por el oeste, y hacia el noreste de China, por el Este.')
 }
 
 let buttonHelecho = document.querySelector('#Helecho')
