@@ -2,7 +2,9 @@ let buttonGirasol = document.querySelector('#Girasol')
 buttonGirasol.onclick = function (){
     alert('Visualmente, el girasol posee un tallo grueso, largo y alto con una flor grande de petalos amarillos pequeños y en todo el centro contiene cemillas saladas comestibles, conocidas como pipas. ')
 }
-buttonGirasol.dblclick = function(){
+
+let buttonGirasolExtras = document.querySelector('#GirasolExtras')
+buttonGirasolExtras.onclick = function(){
     alert('Hay distintos tipos de girasoles: oleaginosos, de confitura o confitería, de alto contenido de ácido oleico y ornamentales.El girasol contiene hasta un 58 % de aceite en su fruto, aceite usado para cocinar, y en la producción de biodiésel. El aceite de girasol virgen —obtenido del prensado de las pipas—, aunque no posee las cualidades del aceite de oliva, sí posee una cantidad cuatro veces mayor de vitamina E natural que este. El "orujo" que queda después de la extracción del aceite se utiliza como alimento para el ganado. Los tallos contienen una fibra que puede ser usada en la elaboración del papel, y las hojas pueden servir también de alimento para el ganado.')
 }
 
