@@ -42,6 +42,8 @@ let h1 = document.querySelector('h1')
 
 let p = document.querySelector('p')
 
+let h3 = document.querySelector('h3')
+
 let buttonCambiarTexto = document.querySelector('#CambiarTexto')
 buttonCambiarTexto.onclick = function(){
     p.style.color = '#A52A2A'
@@ -50,4 +52,16 @@ buttonCambiarTexto.onclick = function(){
 let buttonCambiarTítulo = document.querySelector('#CambiarTítulo')
 buttonCambiarTítulo.onclick = function(){
     h1.style.color = '#A52A2A'
+}
+
+let buttonCambiarTituloSec = document.querySelector('#CambiarTituloSec')
+buttonCambiarTituloSec.onclick = function(){
+    h3.style.color = '#5F9EA0'
+}
+
+let buttonNormalidad = document.querySelector('#normalidad')
+buttonNormalidad.onclick = function(){
+    h1.style.color = '#000000'
+    p.style.color = '#20b2AA'
+    h3.style.color = '#000000'
 }
