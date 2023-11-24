@@ -38,12 +38,16 @@ buttonDienteLeon.onclick = function(){
     alert('En algunos periodos de escasez, la raíz seca se ha utilizado como sustituto de la achicoria, que a su vez es sustituto del café. Sus hojas silvestres o cultivadas son comestibles, se prefieren las que son jóvenes y tiernas para ensaladas, mientras que las maduras, al ser más amargas, se consumen cocidas, aunque está sin confirmarse la existencia de cultivos para este fin.')
 }
 
+let h1 = document.querySelector('h1')
+
+let p = document.querySelector('p')
+
 let buttonCambiarTexto = document.querySelector('#CambiarTexto')
-butttonCambiarTexto.onclick = function(){
+buttonCambiarTexto.onclick = function(){
     p.style.color = '#A52A2A'
 }
 
 let buttonCambiarTítulo = document.querySelector('#CambiarTítulo')
-butttonCambiarTítulo.onclick = function(){
+buttonCambiarTítulo.onclick = function(){
     h1.style.color = '#A52A2A'
 }
