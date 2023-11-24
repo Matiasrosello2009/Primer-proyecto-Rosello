@@ -42,3 +42,8 @@ let buttonCambiarTexto = document.querySelector('#CambiarTexto')
 butttonCambiarTexto.onclick = function(){
     p.style.color = '#A52A2A'
 }
+
+let buttonCambiarTítulo = document.querySelector('#CambiarTítulo')
+butttonCambiarTítulo.onclick = function(){
+    h1.style.color = '#A52A2A'
+}
