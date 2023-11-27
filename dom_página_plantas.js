@@ -14,7 +14,7 @@ buttonTulipanes.onclick = function (){
 }
 
 let buttonTulipanesExtras = document.querySelector('#TulipanesExtras')
-buttonTulipanes.onclick = function(){
+buttonTulipanesExtras.onclick = function(){
     alert('El centro de diversidad del género se encuentra en las montañas Pamir e Hindu Kush en las estepas de Kazajistán, encontrándose distribuido por Oriente Medio, Irán y Afganistán particularmente, hacia la península de Anatolia, Europa del Sur y norte de África, por el oeste, y hacia el noreste de China, por el Este.')
 }
 
@@ -24,7 +24,7 @@ buttonHelecho.onclick = function (){
 }
 
 let buttonHelechoExtras = document.querySelector('#HelechoExtras')
-buttonHelecho.click = function(){
+buttonHelechoExtras.click = function(){
     alert('Filogenéticamente se puede dividir en dos grupos: Ophioglossidae (ofioglosales y psilotales) y el grupo conocido popularmente como de los "helechos verdaderos" (maratiales y polipódidos) que hoy en día, tras análisis moleculares de ADN, se ha determinado que forman un clado (grupo monofilético según la escuela cladista). Algunas especies, como el helecho águila (Pteridium aquilinum) o la azolla (Azolla filiculoides) son extremadamente comunes y se encuentran repartidas por toda la superficie terrestre.')
 }
 
@@ -34,9 +34,11 @@ buttonDienteLeon.onclick = function (){
 }
 
 let buttonDienteLeonExtras = document.querySelector('#DienteLeonExtras')
-buttonDienteLeon.onclick = function(){
+buttonDienteLeonExtras.onclick = function(){
     alert('En algunos periodos de escasez, la raíz seca se ha utilizado como sustituto de la achicoria, que a su vez es sustituto del café. Sus hojas silvestres o cultivadas son comestibles, se prefieren las que son jóvenes y tiernas para ensaladas, mientras que las maduras, al ser más amargas, se consumen cocidas, aunque está sin confirmarse la existencia de cultivos para este fin.')
 }
+
+//_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0//
 
 let h1 = document.querySelector('h1')
 
